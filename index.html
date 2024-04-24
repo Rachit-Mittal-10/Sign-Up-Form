@@ -9,7 +9,10 @@
 <body>
     <div class="main-container">
         <div class="left-side-div">
-            <div class="top-div"></div>
+            <div class="top-div">
+                <img src="./images/odin-lined.png" alt="Odin Logo">
+                <p>ODIN</p>
+            </div>
             <div class="bottom-div-text">
                 Photo by Celeb Wright on Unsplash
             </div>
@@ -25,20 +28,20 @@
                     <div class="form-container-grid">
                         <div class="form-part">
                             <label for="first-name">FIRST NAME</label><br>
-                            <input type="text" id = "first-name" name="first_name"><br><br>
+                            <input type="text" id = "first-name" name="first_name" required><br><br>
                             
                             <label for="email-info">EMAIL</label><br>
-                            <input type="email" id = "email-info" name="email_info"><br><br>
+                            <input type="email" id = "email-info" name="email_info" required><br><br>
     
                             <label for="password">PASSWORD</label><br>
                             <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
                         </div>
                         <div class="form-part">
                             <label for="last-name">LAST NAME</label><br>
-                            <input type="text" id="last-name" name="last_name"><br><br>
+                            <input type="text" id="last-name" name="last_name" required><br><br>
         
                             <label for="contact-number">PHONE NUMBER</label><br>
-                            <input type="text" id="contact-number" name="contact_number"><br><br>
+                            <input type="text" id="contact-number" name="contact_number" required><br><br>
         
                             <label for="confirm-password">CONFIRM PASSWORD</label><br>
                             <input type="password" id="confirm-password" name="confirm_password" minlength="8" maxlength="20" required>
@@ -50,7 +53,11 @@
             </div>
             <footer class="bottom-text-container">
                 <p>Already have an account? 
-                    <span>Log In</span>
+                    <span style="
+                        font-weight: bold;
+                        text-decoration: underline;
+                        font-style: oblique;
+                    ">Log In</span>
                 </p>
             </footer>
         </div>

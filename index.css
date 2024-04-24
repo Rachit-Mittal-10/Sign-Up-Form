@@ -104,3 +104,28 @@ form .form-part > #password:invalid,
 form .form-part > #confirm-password:invalid{
     border-color: red;
 }
+
+.left-side-div > .top-div {
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    padding: 10px 0px;
+}
+
+.left-side-div > .top-div > p{
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    display: inline;
+}
+
+.left-side-div > .top-div > img{
+    width: 100px;
+    height: 100px;
+}
+

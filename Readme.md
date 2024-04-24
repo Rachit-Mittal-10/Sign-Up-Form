@@ -1,1 +1,2 @@
-Sign Up Form\nThe Odin Project
+Sign Up Form
+The Odin Project
