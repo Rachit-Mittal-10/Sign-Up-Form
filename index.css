@@ -46,9 +46,10 @@ body{
     position: relative;
 }
 
-.bottom-div-text{
+.left-side-div > .bottom-div-text{
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
+    left: 23%;
     color: white;
     font-size: 16px;
     font-weight: 800;
